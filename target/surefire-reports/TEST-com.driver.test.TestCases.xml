@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.driver.test.TestCases" time="0.032" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.driver.test.TestCases" time="0.024" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Users\91709\.jdks\corretto-18.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\91709\AppData\Local\Temp\surefire16812238110490988258\surefirebooter13643749807085332113.jar C:\Users\91709\AppData\Local\Temp\surefire16812238110490988258 2025-11-28T14-15-14_327-jvmRun1 surefire8526508211862088622tmp surefire_0743591486368255906tmp"/>
+    <property name="sun.java.command" value="C:\Users\91709\AppData\Local\Temp\surefire4969967415795633483\surefirebooter10578574049265204929.jar C:\Users\91709\AppData\Local\Temp\surefire4969967415795633483 2025-11-28T14-22-52_944-jvmRun1 surefire8491469393485936908tmp surefire_02638024069548160867tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\91709\Downloads\Overriding\target\test-classes;C:\Users\91709\Downloads\Overriding\target\classes;C:\Users\91709\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\91709\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\91709\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\91709\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\91709\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\91709\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\91709\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\91709\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\91709\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\91709\AppData\Local\Temp\surefire16812238110490988258\surefirebooter13643749807085332113.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\91709\AppData\Local\Temp\surefire4969967415795633483\surefirebooter10578574049265204929.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2+9-FR"/>
@@ -61,7 +61,7 @@
     <property name="maven.repo.local" value="C:\Users\91709\.m2\repository"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="testDirectChildCall" classname="com.driver.test.TestCases" time="0.024"/>
-  <testcase name="testOverriddenMethod" classname="com.driver.test.TestCases" time="0.001"/>
-  <testcase name="testParentMethod" classname="com.driver.test.TestCases" time="0.001"/>
+  <testcase name="testDirectChildCall" classname="com.driver.test.TestCases" time="0.016"/>
+  <testcase name="testOverriddenMethod" classname="com.driver.test.TestCases" time="0"/>
+  <testcase name="testParentMethod" classname="com.driver.test.TestCases" time="0"/>
 </testsuite>
